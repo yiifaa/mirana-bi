@@ -22,4 +22,5 @@ public class MenuServiceImpl extends GenericServiceImpl<Menu, Long> implements M
     protected GenericDao<Menu, Long> dao() {
         return this.menuDao;
     }
+
 }
